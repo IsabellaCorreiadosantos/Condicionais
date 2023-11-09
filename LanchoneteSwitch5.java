@@ -2,7 +2,7 @@ package atividade2;
 
 import java.util.Scanner;
 
-public class LacoCondicionalSwitch1 {
+public class LanchoneteSwitch5 {
 
 	public static void main(String[] args) {
 		

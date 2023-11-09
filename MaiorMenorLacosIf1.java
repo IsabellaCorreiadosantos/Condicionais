@@ -2,7 +2,7 @@ package atividade2;
 
 import java.util.Scanner;
 
-public class LacosDeRepetiçoesIf1 {
+public class MaiorMenorLacosIf1 {
 
 	public static void main(String[] args) {
 	
