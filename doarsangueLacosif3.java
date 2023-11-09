@@ -14,7 +14,7 @@ public class doarsangueLacosif3 {
 		Scanner leia = new Scanner(System.in);
 		
 		System.out.println("\nDigite o Nome do doador: ");
-	    nome = leia.next();
+	    nome = leia.nextLine();
 		
 		System.out.println("\nDigite a Idade do doador: ");
 		idade = leia.nextInt();
