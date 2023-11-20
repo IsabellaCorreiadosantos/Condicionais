@@ -6,27 +6,26 @@ public class ImparParIf2 {
 
 	public static void main(String[] args) {
 
-		int n1;
+		int numeroDigitado;
 
 		Scanner leia = new Scanner(System.in);
 
 		System.out.println("Digite um número inteiro: ");
-		n1 = leia.nextInt();
+		numeroDigitado = leia.nextInt();
 
-		if (n1 % 2 == 0) {
-			if (n1 > 0) {
-				System.out.println("O número é " + n1 + " é par e positivo ");
+		if (numeroDigitado % 2 == 0) {
+			//% resto da divisão == verdadeiro verdadeiro
+			if (numeroDigitado > 0) {
+				System.out.println("O número é " + numeroDigitado + " é par e positivo ");
 			} else {
-				System.out.println("O número é " + n1 + " é par e negativo ");
+				System.out.println("O número é " + numeroDigitado + " é par e negativo ");
 			}
 		} else {
-			if (n1 > 0) {
-				System.out.println("O número é " + n1 + " é impar e positivo ");
+			if (numeroDigitado > 0) {
+				System.out.println("O número é " + numeroDigitado + " é impar e positivo ");
 			} else {
-				System.out.println("O número é " + n1 + " é impar e negativo ");
+				System.out.println("O número é " + numeroDigitado + " é impar e negativo ");
 			}
 		}
-
 	}
-
 }
